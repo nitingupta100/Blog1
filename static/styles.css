@@ -1,0 +1,52 @@
+.nav {
+
+    background-color: #04AA6D;
+    padding: 10px;
+    margin: 0px;
+}
+
+.blog-title {
+
+    font-size:larger ;
+    text-align: center;
+    background-color: red;
+    margin: 0px;
+
+}
+
+.article-title {
+
+    font-size: large;
+    background-color: aqua;
+    
+
+}
+
+.article-body {
+
+    width: 80%;
+    padding: 50px;
+    background-color:peru
+    
+}
+
+.lab {
+    width: 150px ;
+    display: inline-block ;
+    text-align: right;
+    /*vertical-align: top; */
+    margin: 5px ;
+}
+
+.but {
+    display: inline-block;
+    width: 100px;
+    margin-left: 200px;
+
+}
+
+.write {
+    text-align:left;
+    padding: 0px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+
+        <a href="/"> Home</a>
+        <a href="/new"> New Article</a>
+
+    </div>
+
+    <form action = "/update" method="POST" >    
+    <div>
+        <div>
+            
+            <label class="lab"> ID </label>
+            <input name="id" value = "{{ article.id }}"> 
+        </div>
+        
+        <div>    
+            <label class="lab"> Title </label>
+            <input name="title" value ="{{ article.title }}"> 
+        </div>
+
+        <div>
+            <label class ="lab"> Article </label>
+            <textarea name = "body"  class= "write" cols="20" rows ="8" value ="{{ article.body }}">
+            </textarea >
+        </div>
+
+        <div>
+            <button type ='submit' class="but">Save</button>
+        </div>
+    </div>
+    </form>
+
+
+</body>
+</html>
